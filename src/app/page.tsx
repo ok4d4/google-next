@@ -1,8 +1,13 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
+import HomeHeader from "@/components/HomeHeader";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
-  return <div>test</div>;
+  return (
+    <>
+      <HomeHeader />
+    </>
+  );
 }
